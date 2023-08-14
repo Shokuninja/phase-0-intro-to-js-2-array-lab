@@ -52,7 +52,7 @@ describe('index.js', function () {
 
         expect(cats).to.have.ordered.members(["Milo", "Otis", "Garfield"]);
       });
-    });
+    }); 
 
     describe('prependCat(name)', function () {
       it('prepends a cat to the cats array and returns a new array, leaving the cats array unchanged', function () {
